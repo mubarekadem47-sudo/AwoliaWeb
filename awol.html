@@ -354,21 +354,6 @@
         .contact-value {
             flex: 1;
         }
-        .phone-line {
-            margin-bottom: 0.5rem;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .phone-line:last-child {
-            margin-bottom: 0;
-        }
-        .phone-number {
-            white-space: nowrap;
-            font-family: monospace;
-            letter-spacing: 0.5px;
-        }
 
         .footer {
             text-align: center;
@@ -400,7 +385,6 @@
             .main-logo { width: 45px; height: 45px; }
             .site-header { padding: 0.5rem 1rem; }
             .main-content { margin-top: 75px; }
-            .phone-number { white-space: normal; }
         }
     </style>
 </head>
@@ -426,11 +410,11 @@
         <img src="awolia-youth-logo.jpg" alt="አርማ" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
         <div style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, #1f5e3a, #f5b042); display: none; align-items: center; justify-content: center; margin: 0 auto; font-size: 45px; color: white;">🕌</div>
     </div>
-    <div class="sidebar-logo">አወሊያ <span>ወጣቶች ጀምዐ</span></div>
+    <div class="sidebar-logo">አወሊያ መስጂድ  <span>ወጣቶች ጀምዐ</span></div>
     <div class="sidebar-nav">
         <a data-page="home" class="active">🏠 መነሻ</a>
-        <a data-page="activities">📋 ተግባራት</a>
-        <a data-page="community">🤝 ዘርፎች</a>
+        <a data-page="activities">📋ዘርፎች </a>
+        <a data-page="community">🤝 የሚሰሩ ተግባራት</a>
         <a data-page="donate">💚 ልገሳ</a>
         <a data-page="prayer">🕌 የሶላት ሰዓት</a>
         <a data-page="news">📰 ዜና እና ጨዋታዎች</a>
@@ -470,38 +454,39 @@
 
         <!-- ACTIVITIES PAGE -->
         <div id="activities-page" class="page">
-            <h2 class="section-title">📋 የአወሊያ ወጣቶች ጀምዐ ዋና ተግባራት</h2>
+            <h2 class="section-title">📋 የአወሊያ መስጂድ ወጣቶች ጀምዐ ዋና ተግባራት</h2>
             
             <div class="activity-block">
                 <h3>1. ማህበራዊ ዘርፍ</h3>
                 <ul>
-                    <li>ከአወሊያ መስጂድ አስተዳደር ኮሚቴ ጋር በመተባበር የረመዳን የምግብ ዕርዳታ (አስበዛ) መሰብሰብ እና ማከፋፈል።</li>
-                    <li>የዘካተ ፊጥርን ከመስጂዱ ማህበረሰብ መሰብሰብ እና በሸሪዓ መርሆች መሠረት ለብቁዎች ማከፋፈል።</li>
-                    <li>ከግለሰቦች እና ድርጅቶች ጋር በማስተባበር የኡድሂያ (ቁርባኒ) መስዋዕት ማዘጋጀት እና ለተቸገሩ ማድረስ።</li>
+                    <li>ከአወሊያ መስጂድ አስተዳደር ኮሚቴ ጋር በመተባበር የረመዳን የምግብ ዕርዳታ (አስቤዛ) መሰብሰብ እና ማከፋፈል።</li>
+                    <li>ዘካተል ፊጥርን ከመስጂዱ ማህበረሰብ መሰብሰብ እና በሸሪዓ መርሆች መሠረት ለብቁዎች ማከፋፈል።</li>
+                    <li>ከግለሰቦች እና ድርጅቶች ጋር በማስተባበር ኡድሂያ ማዘጋጀት እና ለተቸገሩ ማድረስ።</li>
                     <li>ለጀምዐ አባላት እና ለመስጂዱ ማህበረሰብ የጉብኝት ፕሮግራም (ዚያራ) ማካሄድ።</li>
                     <li>አዲስ እና ያገለገሉ ልብሶችን እንዲሁም ጫማዎችን ከማህበረሰቡ መሰብሰብ እና ለተቸገሩ ማድረስ።</li>
                     <li>ከመስጂዱ አስተዳደር ኮሚቴ ጋር በክረምት ወቅት የትምህርት ቁሳቁሶችን መሰብሰብ እና ማከፋፈል።</li>
-                    <li>ከልግስና ሰጪዎች (አህለል ከይር) በተገኘ ገንዘብ ኢፍጣር ፕሮግራም ማዘጋጀት።</li>
+                    <li>ከአህለል ከይር በተገኘ ገንዘብ ኢፍጣር ፕሮግራም ማዘጋጀት።</li>
                 </ul>
             </div>
 
             <div class="activity-block">
-                <h3>2. ዳዕዋ እና ቁርአን ጥናት ዘርፍ</h3>
+                <h3>2. ዳዕዋ እና ቂርአት  ዘርፍ</h3>
                 <ul>
                     <li>ከመድረሳ ጋር በመተባበር በክረምት ወቅት የሸሪዓ ኮርሶችን በየጊዜው ማዘጋጀት።</li>
                     <li>ለማህበረሰቡ በዲን ላይ የተመሠረተ ጥያቄ እና መልስ ዝግጅቶችን ማዘጋጀት።</li>
                     <li>ትምህርታዊ የሃይማኖት መጣጥፎችን እና ጽሑፎችን መለጠፍ።</li>
-                    <li>ከኢማሞች ጋር በመተባበር በመስጂዱ ውስጥ የሚካሄዱትን የቁርአን ቅራኣት እና የዳዕዋ ፕሮግራሞችን መከታተል እና መደገፍ።</li>
+                    <li>ከኢማሞች ጋር በመተባበር በመስጂዱ ውስጥ የሚካሄዱትን የቁርአን ቂርኣት እና የዳዕዋ ፕሮግራሞችን መከታተል እና መደገፍ።</li>
                 </ul>
             </div>
 
             <div class="activity-block">
                 <h3>3. ስፖርት ዘርፍ</h3>
                 <ul>
-                    <li>መስጂዱን የሚወክል “አክህላቅ ቱርናሜንት” ቡድንን ማስተዳደር።</li>
+                    <li>መስጂዱን የሚወክል “አክህላቅ ቶርናመንት” ቡድንን ማስተዳደር።</li>
                     <li>በጀምዐ አባላት መካከል የእግር ኳስ ልምምድ ክፍለ ጊዜዎችን ማዘጋጀት።</li>
                     <li>የእሁድ እግር ኳስ ፕሮግራምን መምራት።</li>
                     <li>ከክረምት ኮርሶች ጋር ተያይዘው የሚቀርቡ የወጣቶች ስፖርት ፕሮግራሞችን (እንደ ቦክስ እና ታክዎንዶ) ማስተዳደር እና መቆጣጠር።</li>
+                    <li>የታዳጊዎችን የስፖርት ውድድር ማዘጋጀት የኳስ ፣የሩጫ የመሳሰሉት</li>
                 </ul>
             </div>
 
@@ -509,7 +494,7 @@
                 <h3>4. የሴቶች ዘርፍ</h3>
                 <ul>
                     <li>ሁሉንም የድርጅት እና የአመራር ተግባራት ከወንዶች ጎን ጋር በማመሳሰል ማስተባበር።</li>
-                    <li>ለእናቶች ገለልተኛ የቁርአን ቅራኣት ክፍለ ጊዜዎችን ማካሄድ።</li>
+                    <li>ለእናቶች ገለልተኛ የቁርአን ቂርኣት ክፍለ ጊዜዎችን ማካሄድ።</li>
                     <li>“ሴት-ለ-ሴት” ዳዕዋ ፕሮግራሞችን ማዘጋጀት።</li>
                     <li>ለጁሙዓ ሶላት አገልግሎት እና ቅዳሜ (ካዳሚ) ማድረግ።</li>
                 </ul>
@@ -530,9 +515,9 @@
 
         <!-- COMMUNITY PAGE (ዘርፎች) -->
         <div id="community-page" class="page">
-            <h2 class="section-title">🤝 ዘርፎች እና ተግባራት</h2>
+            <h2 class="section-title">🤝  ተግባራት</h2>
             <div class="activity-block">
-                <h3>ማህበራዊ እንክብካቤ</h3>
+                <h3>ማህበራዊ ዘርፍ </h3>
                 <ul>
                     <li>ከአስተዳደር ኮሚቴ ጋር በመተባበር የረመዳን የምግብ ዕርዳታ (አስበዛ) ማከፋፈል።</li>
                     <li>የዘካተ ፊጥር እና የኡድሂያ ስርጭት።</li>
@@ -581,12 +566,12 @@
             <h2 class="section-title">🕌 የሶላት ሰዓት እና ቆጠራ</h2>
             <p>ለአወሊያ መስጂድ፣ አዲስ አበባ ትክክለኛ የሶላት መርሐግብር።</p>
             <div class="prayer-table">
-                <div class="prayer-row"><span>ፋጅር (ንጋት)</span><span>5:12 ጠዋት</span></div>
+                <div class="prayer-row"><span>ፈጅር (ንጋት)</span><span>5:12 ጠዋት</span></div>
                 <div class="prayer-row"><span>ፀሐይ መውጣት</span><span>6:22 ጠዋት</span></div>
-                <div class="prayer-row"><span>ዙህር (ቀትር)</span><span>12:29 ቀትር</span></div>
+                <div class="prayer-row"><span>ዝሁር (ቀትር)</span><span>12:29 ቀትር</span></div>
                 <div class="prayer-row"><span>ዐስር (ከሰዓት)</span><span>3:37 ከሰዓት</span></div>
                 <div class="prayer-row"><span>መግሪብ (ምሽት)</span><span>6:35 ከሰዓት</span></div>
-                <div class="prayer-row"><span>እሻ (ሌሊት)</span><span>7:41 ማታ</span></div>
+                <div class="prayer-row"><span>ኢሻ (ሌሊት)</span><span>7:41 ማታ</span></div>
             </div>
             <div class="countdown-box">
                 <h4>⏳ ቀጣይ ሶላት የሚቀረው ጊዜ</h4>
@@ -606,37 +591,25 @@
             </div>
         </div>
 
-        <!-- CONTACT PAGE - phone numbers with equal spacing -->
+        <!-- CONTACT PAGE (updated address) -->
         <div id="contact-page" class="page">
             <h2 class="section-title">📞 አወሊያ መስጂድ ወጣቶች ጀምዐን ያግኙ</h2>
             <div class="contact-details">
-                <div class="contact-item"><div class="contact-label">📍 አድራሻ</div><div class="contact-value">በአወሊያ እርዳታ እና ልማት ድርጅት ዋና ቢሮ ውስጥ (አወሊያ መስጂድ አካባቢ)፣ አዲስ አበባ</div></div>
-                <div class="contact-item">
-                    <div class="contact-label">📞 ስልክ</div>
-                    <div class="contact-value">
-                        <div class="phone-line">
-                            <span class="phone-number">+251 910 518 948</span>
-                            <button class="copy-btn" data-text="+251910518948">ቅዳ</button>
-                        </div>
-                        <div class="phone-line">
-                            <span class="phone-number">+251 922 957 451</span>
-                            <button class="copy-btn" data-text="+251922957451">ቅዳ</button>
-                        </div>
-                    </div>
-                </div>
+                <div class="contact-item"><div class="contact-label">📍 አድራሻ</div><div class="contact-value">በአወሊያ እርዳታ እና ልማት ድርጅት ዋና ቢሮ ውስጥ (አወሊያ መስጂድ ግራውንድ ስር )፣ አዲስ አበባ</div></div>
+                <div class="contact-item"><div class="contact-label">📞 ስልክ</div><div class="contact-value">+251 910 518 948 <button class="copy-btn" data-text="+251910518948">ቅዳ</button><br>+251 920 207 517 <button class="copy-btn" data-text="+251920207517">ቅዳ</button></div></div>
                 <div class="contact-item"><div class="contact-label">📧 ኢሜይል</div><div class="contact-value">aweliyamesjidyouth@gmail.com <button class="copy-btn" data-text="aweliyamesjidyouth@gmail.com">ቅዳ</button></div></div>
-                <div class="contact-item"><div class="contact-label">📱 ቴሌግራም</div><div class="contact-value"><a href="https://t.me/+GdbodoOS7VQzYjk0" target="_blank" class="telegram-link">💬 t.me/+GdbodoOS7VQzYjk0</a> <button class="copy-btn" data-text="https://t.me/+GdbodoOS7VQzYjk0">ሊንክ ቅዳ</button></div></div>
+                <div class="contact-item"><div class="contact-label">📱 ቴሌግራም</div><div class="contact-value"><a href="https://t.me/imamseid7517" target="_blank" class="telegram-link">💬 t.me/imamseid7517</a> <button class="copy-btn" data-text="https://t.me/imamseid7517">ሊንክ ቅዳ</button></div></div>
                 <div class="contact-item"><div class="contact-label">📞 የስልክ ድጋፍ ሰዓት</div><div class="contact-value"><strong>ከሰኞ እስከ እሁድ ከምሽቱ 3:00 እስከ እሻ ሶላት</strong></div></div>
                 <div class="contact-item"><div class="contact-label">🕹️ የወጣቶች ቢሮ ሰዓት</div><div class="contact-value">ሰኞ–ሐሙስ 2:00–6:00 ከሰዓት<br>ዓርብ 10:00–12:00 ጠዋት<br>ቅዳሜ 3:00–5:00 ከሰዓት</div></div>
             </div>
             <div style="margin-top: 1.5rem; text-align: center;">
                 <a href="https://www.tiktok.com/@awoliayouth123" target="_blank" class="social-link">📱 ቲክቶክ፦ @awoliayouth123</a>
-                <a href="https://t.me/+GdbodoOS7VQzYjk0" target="_blank" class="telegram-link" style="margin-left: 0.5rem;">📲 ቴሌግራም ቻናል</a>
+                <a href="https://t.me/imamseid7517" target="_blank" class="telegram-link" style="margin-left: 0.5rem;">📲 ቴሌግራም ቻናል</a>
             </div>
         </div>
 
         <div class="footer">
-            <p>📌 አወሊያ መስጂድ ወጣቶች ጀምዐ — ወጣት ሙስሊሞችን በእምነት እና አገልግሎት ማብቃት።<br>ኢሜይል፦ aweliyamesjidyouth@gmail.com | +251 910 518 948 | +251 922 957 451<br>📢 ቴሌግራም፦ <a href="https://t.me/+GdbodoOS7VQzYjk0" target="_blank" style="color:#1f5e3a; text-decoration:underline;">t.me/+GdbodoOS7VQzYjk0</a><br>© 2025 Awolia Mosque Youth Association</p>
+            <p>📌 አወሊያ መስጂድ ወጣቶች ጀምዐ — ወጣት ሙስሊሞችን በእምነት እና አገልግሎት ማብቃት።<br>ኢሜይል፦ aweliyamesjidyouth@gmail.com | +251 910 518 948<br>© 2025 Awolia Mosque Youth Association</p>
         </div>
     </div>
 </div>
